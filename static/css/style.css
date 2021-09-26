@@ -1,0 +1,137 @@
+
+*,*:before,*:after{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu{
+    background-color:transparent;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+}
+.logo{
+    font-size: 40px;
+    padding:0;
+    margin-top:100px;
+    width: 400px;
+   
+}
+
+.menu-item{
+    display: flex;
+    list-style: none;
+    float: right;
+   
+    
+}
+.menu-item li{
+ 
+    border-radius: 3px;
+    margin:0 5px;
+   
+}
+.menu-item li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color:black;
+    
+}
+.menu-item li:hover{
+    background-color:rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+
+}
+
+.container-login{
+    background: transparent;
+    height: 400px;
+    width: 400px;
+    position: flex;
+    margin-top: 50px;
+   margin-left: 30%;
+    border-top: 5px solid rgba(198, 22, 204, 0.322);
+    border-left: 5px solid rgba(198, 22, 204, 0.322);
+    border-bottom:10px solid rgba(184, 17, 114, 0.705);
+    border-right: 10px solid rgba(184, 17, 114, 0.705);
+    box-shadow: 5px 0 10px solid  rgba(145, 14, 14, 0.26);
+}
+.login{
+    background:url("img/1.jpg");
+    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.inputs {
+    width: 100%;
+	margin-top: 10%;
+	height: 52px;
+	font-size: 20px;
+	line-height: 52px;
+	text-align: center;
+   
+	
+}
+.inp{
+    border-radius: 8px;
+    border: 2px solid rgba(226, 28, 28, 0.3);
+    background-color: transparent;
+    text-align: center;
+
+}
+.btn-login{
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: 20%;
+    border-radius: 8px;
+    background-color: rgb(168, 168, 168);
+    text-decoration: none;
+    outline: none;
+    color: rgb(3, 3, 3);
+    background-color: rgba(177, 51, 19, 0.3);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999
+}
+.btn-login:hover{
+    background-color: #3e8e41
+}
+.btn-login:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.btn-register{
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: 67%;
+    border-radius: 8px;
+    background-color: rgb(168, 168, 168);
+    text-decoration: none;
+    outline: none;
+    color: rgb(3, 3, 3);
+    background-color: rgba(177, 51, 19, 0.3);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999
+}
+.btn-register:hover{
+    background-color: #3e8e41
+}
+.btn-register:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
