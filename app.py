@@ -27,6 +27,10 @@ def Register():
 def Login():
     return render_template('./account/login.html')
 
+@app.route('/admin')
+def Admin():
+    return render_template('./admin/admin.html')
+
 @app.route("/get_my_ip", methods=["GET"])
 def get_my_ip():
     if request.environ.get('HTTP_X_FORWARDED_FOR') is None:

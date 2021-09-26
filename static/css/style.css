@@ -21,9 +21,9 @@ body{
 .logo{
     font-size: 40px;
     padding:0;
-    margin-top:100px;
+    margin-top:5px;
     width: 400px;
-   
+    
 }
 
 .menu-item{
@@ -60,7 +60,7 @@ body{
     width: 400px;
     position: flex;
     margin-top: 50px;
-   margin-left: 30%;
+    margin-left: 30%;
     border-top: 5px solid rgba(198, 22, 204, 0.322);
     border-left: 5px solid rgba(198, 22, 204, 0.322);
     border-bottom:10px solid rgba(184, 17, 114, 0.705);
@@ -76,13 +76,11 @@ body{
 }
 .inputs {
     width: 100%;
-	margin-top: 10%;
-	height: 52px;
-	font-size: 20px;
-	line-height: 52px;
-	text-align: center;
-   
-	
+    margin-top: 5%;
+    height: 52px;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
 }
 .inp{
     border-radius: 8px;
@@ -91,10 +89,11 @@ body{
     text-align: center;
 
 }
-.btn-login{
+.btn-login, .btn-register{
     font-size: 20px;
-    margin-left: 40%;
-    margin-top: 20%;
+    /* margin-left: 40%; */
+    /* margin-top: 20%; */
+    padding: 10px;
     border-radius: 8px;
     background-color: rgb(168, 168, 168);
     text-decoration: none;
@@ -114,6 +113,9 @@ body{
     transform: translateY(4px);
 }
 .btn-register{
+    margin-top: 0;
+}
+/* .btn-register{
     font-size: 20px;
     margin-left: 40%;
     margin-top: 67%;
@@ -126,7 +128,7 @@ body{
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999
-}
+} */
 .btn-register:hover{
     background-color: #3e8e41
 }
